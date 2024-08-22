@@ -1,16 +1,16 @@
 @font-face {
     font-family: "IranSans";
-
     src: url('https://ia600801.us.archive.org/14/items/iransans_20240822/IRANSans.ttf');
     font-weight: normal;
     font-style: normal;
 }
 .body{
-    background-color: #202020;
+    background-color: #242424;
     margin: 10;
+    align-items: center;
 } 
 header{
-    background-color: #404040;
+    background-color: #181818;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,8 +34,9 @@ nav a{
     text-decoration: none;
     padding: 8px 15px;
     border-radius: 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.4s;
     font-family: 'IranSans';
+    font-size: 15px;
 }
 nav a:hover{
     background-color: #303030;
